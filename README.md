@@ -21,7 +21,7 @@ Vi sono due tipi di Database
         
       
       [Com'è il modello dei dati? cone organizza i suoi dati]
-      Modello dei dati: Documenti [Ogni singola riga che rappresenta i nostri dati è un documento
+      Modello dei dati: Documenti [Ogni singola riga che rappresenta i nostri dati è un documento]
     Documento
       Un documento si può rappresentare come un dizionario di python (Mongo DB lo ritiene un'oggetto) 
       es: {Nome: "Ugo" , Cognome: "Fantozzi"}

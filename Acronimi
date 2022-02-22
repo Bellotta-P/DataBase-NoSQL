@@ -1,0 +1,16 @@
+SQL = Structured Query Language
+MONGODB = Mongo DataBase
+
+
+BSON = Binary JavaScript Object Notation
+JSON = JavaScript Object Notation
+
+GT = Greater Than
+
+#Ogni specifica parola all'interno della spiegazione
+  Collection
+  Query Criteria
+  Projection
+  Cursor modifier
+  Update Filter
+  Update Action

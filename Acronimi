@@ -6,6 +6,7 @@ BSON = Binary JavaScript Object Notation
 JSON = JavaScript Object Notation
 
 GT = Greater Than
+LT = Later Than
 
 #Ogni specifica parola all'interno della spiegazione
   Collection

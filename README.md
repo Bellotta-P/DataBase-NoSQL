@@ -24,6 +24,7 @@ Vi sono due tipi di Database
       Modello dei dati: Documenti [Ogni singola riga che rappresenta i nostri dati è un documento]
     Documento
       Un documento si può rappresentare come un dizionario di python (Mongo DB lo ritiene un'oggetto) 
+      Ogni documento ha un codice decimale, che identifica il documento singolo
       es: {Nome: "Ugo" , Cognome: "Fantozzi"}
       es: {Nome: "Ugo" , Disegnatore: "Disney"}
       Se è uspicabile che le chiavi siano le stesse tra i documenti, Mongo DB permette di collegare i documenti [Non è un database razionale è un database flessibile]
@@ -42,4 +43,5 @@ Vi sono due tipi di Database
        indirizzo: {Ma: "pace", N: "3", Città: "Milano" == Dizionario/Documento
        Fermate: [7,6,4,523,4] == Vettore (Perchè ha lo stesso tipo di valori al suo interno)
        
-       
+       Librerie utili
+        Pymongo = è una libreria di Python che contiene oggeti che permettono di lavorare con MongoDB

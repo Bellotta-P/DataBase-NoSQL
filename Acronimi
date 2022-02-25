@@ -6,14 +6,15 @@ BSON = Binary JavaScript Object Notation
 JSON = JavaScript Object Notation
 
 COMPARISON QUERY OPERATIONS
-  GT = Greater Than , Selects those documents where the value of the field is greater than (i.e. >) the specified value.
-  LT = Less Than , Selects the documents where the value of the field is less than (i.e. <) the specified value.
-  IN = Operator selects the documents where the value of a field equals any value in the specified array
-  EQ = Operator matches documents where the value of a field equals the specified value.
+  $GT = Greater Than , Selects those documents where the value of the field is greater than (i.e. >) the specified value.
+  $LT = Less Than , Selects the documents where the value of the field is less than (i.e. <) the specified value.
+  $IN = Operator selects the documents where the value of a field equals any value in the specified array
+  $EQ = Operator matches documents where the value of a field equals the specified value.
+  $regex = Provides regular expression capabilities for pattern matching strings in queries. MongoDB uses Perl compatible regular expressions
   
 LOGICAL QUERY OPERATIONS
-   AND = performs a logical AND operation on an array of one or more expressions (<expression1>, <expression2>, and so on) and selects the documents that satisfy all the expressions
-   OR = operator performs a logical OR operation on an array of two or more <expressions> and selects the documents that satisfy at least one of the <expressions>
+  $AND = performs a logical AND operation on an array of one or more expressions (<expression1>, <expression2>, and so on) and selects the documents that satisfy all the expressions
+  $OR = operator performs a logical OR operation on an array of two or more <expressions> and selects the documents that satisfy at least one of the <expressions>
    
    MATCH = Filters the documents to pass only the documents that match the specified condition(s) to the next pipeline stage.
    GROUPS = Group up by The _id field of each output document contains the unique group by value

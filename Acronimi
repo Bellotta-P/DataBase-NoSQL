@@ -11,6 +11,12 @@ COMPARISON QUERY OPERATIONS
   $IN = Operator selects the documents where the value of a field equals any value in the specified array
   $EQ = Operator matches documents where the value of a field equals the specified value.
   $regex = Provides regular expression capabilities for pattern matching strings in queries. MongoDB uses Perl compatible regular expressions
+  $unwind = Deconstructs an array field from the input documents to output a document for each element. Each output document is the input document with the value of the array field replaced by the element.
+  $project (Aggregrate) = Serve per cambiare il nome della colonna 
+  
+GEOSPAZIAL QUERY OPERATIONS
+  $near = Specifica un punto dove la geospazialità, dato un punto iniziale e un punto finale
+  
   
 LOGICAL QUERY OPERATIONS
   $AND = performs a logical AND operation on an array of one or more expressions (<expression1>, <expression2>, and so on) and selects the documents that satisfy all the expressions

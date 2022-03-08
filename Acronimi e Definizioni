@@ -14,10 +14,13 @@ COMPARISON QUERY OPERATIONS
   $unwind = Deconstructs an array field from the input documents to output a document for each element. Each output document is the input document with the value of the array field replaced by the element.
   $project (Aggregrate) = Serve per cambiare il nome della colonna 
   
-GEOSPAZIAL QUERY OPERATIONS
+  
+GEOSPAZIAL QUERY OPERATIONS  /  SORT QUERY OPERATIONS
   $near = Specifica un punto dove la geospazialità, dato un punto iniziale e un punto finale
-  
-  
+  $minDistance = limits the results to those documents that are at least the specified distance from the center point.
+  $maxDistance = limits the results to those documents that are at most the specified distance from the center point.
+  $sort() for the query, sort() re-orders the matching documents, effectively overriding the sort operation already performed by $near
+ 
 LOGICAL QUERY OPERATIONS
   $AND = performs a logical AND operation on an array of one or more expressions (<expression1>, <expression2>, and so on) and selects the documents that satisfy all the expressions
   $OR = operator performs a logical OR operation on an array of two or more <expressions> and selects the documents that satisfy at least one of the <expressions>
